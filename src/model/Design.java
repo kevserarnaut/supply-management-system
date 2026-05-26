@@ -1,0 +1,17 @@
+package model;
+
+public class Design {
+    private String name;
+    private double cost;
+    // Gerekirse başka alanlar eklenebilir
+
+    public Design(String name, double cost) {
+        this.name = name;
+        this.cost = cost;
+    }
+
+    public String getName() { return name; }
+    public double getCost() { return cost; }
+    public void setName(String name) { this.name = name; }
+    public void setCost(double cost) { this.cost = cost; }
+} 
